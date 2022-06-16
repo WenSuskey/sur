@@ -1,0 +1,71 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey  Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <div class = 'container'>
+            
+            <form id="survey-form">
+                <div class = "info">
+                    <label id="name-label">Name:</label>
+                    <input id="name" type="text" required placeholder = 'Enter You Name'>
+                    <label id="email-label">Email:</label>
+                    <input id='email' type="email" required placeholder = 'Enter your Email'>
+                    <label id="number-label"> Number:</label>
+                    <input id='number' type="number" required min="10" max="99" placeholder = 'Age'>
+                </div>
+            <p>Which option best describes your current role?<p>
+            <select id ="dropdown">
+                <option value="" selected disabled>Select Current Role</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
+            <p>Would you recommend freeCodeCamp to a friend?<p>
+            <input type='radio' id = "Definitely" name = "rec" value="Definitely">
+            <label for="Definitely">Definitely</label><br>
+            <input type='radio' id = "Maybe" name = "rec" value="Maybe">
+            <label for="Maybe">Maybe</label><br>
+            <input type='radio' id = "Notsure" name = "rec" value="Notsure">
+            <label for="Notsure">Not sure</label><br>
+
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <div class = 'checkbox'>
+                <input type='checkbox' id = "improve1" name = "imp" value="FNP">
+                <label for="improve1">Front-end Projects</label><br>
+                <input type='checkbox' id = "improve2" name = "imp" value="BNP">
+                <label for="improve2">Back-end Projects</label><br>
+                <input type='checkbox' id = "improve3" name = "imp" value="DV">
+                <label for="improve3">Data Visualization</label><br>
+                <input type='checkbox' id = "improve4" name = "imp" value="CHALL">
+                <label for="improve4">Challenges</label><br>
+                <input type='checkbox' id = "improve5" name = "imp" value="OPC">
+                <label for="improve5">Open Source Community</label><br>
+                <input type='checkbox' id = "improve6" name = "imp" value="GHR">
+                <label for="improve6">Gitter help rooms</label><br>
+                <input type='checkbox' id = "improve7" name = "imp" value="VIDE">
+                <label for="improve7">Videos</label><br>
+                <input type='checkbox' id = "improve8" name = "imp" value="CM">
+                <label for="improve8">City Meetups</label><br>
+                <input type='checkbox' id = "improve9" name = "imp" value="WIKI">
+                <label for="improve9">Wiki</label><br>
+                <input type='checkbox' id = "improve10" name = "imp" value="FORUM">
+                <label for="improve10">Forum</label><br>
+                <input type='checkbox' id = "improve11" name = "imp" value="AC">
+                <label for="improve11">Additional Courses</label><br>
+            </div>
+
+            <p>Any comments or suggestions?</p>
+            <textarea id='summary' rows='10' cols = '72' >Enter your comment here...</textarea>
+
+            <button id="submit" type='submit'>Submit</button>
+            </form>
+        </div>
+        <!-- <script src="index.pack.js"></script> -->
+    </body>
+</html>

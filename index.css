@@ -1,0 +1,63 @@
+body,html {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+     background-color: #cccccc;
+    background-image: linear-gradient(0deg, rgba(0, 96, 255, 0.7), rgba(0, 96, 255, 0.4)), url("sg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+   
+}
+.container {
+    background: rgba(0,0,0,0.7);
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+    padding: 30px;
+
+}
+h1{
+    padding-top: 50px;
+    margin-bottom: -10px;
+    font-weight: normal;
+}
+#description{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.info input{
+    border-radius: 3px;
+    display: block;
+    margin-top:5px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    width: 600px;
+    border-radius: 5px;
+    border: none
+}
+
+#submit{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 40px;
+    color: white;
+    background: lightgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.checkbox{
+    margin-top:-10px;
+}
+.checkbox input{
+    margin:8px;
+}
+.container p{
+    margin-top: 30px;
+}
